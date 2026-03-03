@@ -1,0 +1,6 @@
+@PrestaColombia.Api_HostAddress = http://localhost:5244
+
+GET {{PrestaColombia.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
