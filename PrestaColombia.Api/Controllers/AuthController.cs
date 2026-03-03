@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Prestacol.Infrastructure.;
-using Prestacol.Domain.Entities;
+using PrestaColombia.Infrastructure.Data;
+using PrestaColombia.Domain.Entities;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -17,10 +17,10 @@ namespace PrestaColombia.Api.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly PrestacolDbContext _context;
+        private readonly PrestaColombiaDbContext _context;
         private readonly IConfiguration _configuration;
 
-        public AuthController(PrestacolDbContext context, IConfiguration configuration)
+        public AuthController(PrestaColombiaDbContext context, IConfiguration configuration)
         {
             _context = context;
             _configuration = configuration;

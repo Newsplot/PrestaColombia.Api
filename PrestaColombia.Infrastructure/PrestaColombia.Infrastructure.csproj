@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Prestacol.Domain\Prestacol.Domain.csproj" />
+    <ProjectReference Include="..\PrestaColombia.Domain\PrestaColombia.Domain.csproj" />
   </ItemGroup>
 
 </Project>

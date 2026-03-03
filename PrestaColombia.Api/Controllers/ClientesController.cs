@@ -11,9 +11,9 @@ namespace PrestaColombia.Api.Controllers
     [Authorize]
     public class ClientesController : ControllerBase
     {
-        private readonly PrestacolDbContext _context;
+        private readonly PrestaColombiaDbContext _context;
 
-        public ClientesController(PrestacolDbContext context)
+        public ClientesController(PrestaColombiaDbContext context)
         {
             _context = context;
         }

@@ -1,9 +1,9 @@
-using Microsoft.EntityFrameworkCore;
-using Prestacol.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
+using PrestaColombia.Infrastructure.Data;
 using PrestaColombia.Api.Helpers;
+using System.Text;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,7 +42,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
-builder.Services.AddDbContext<PrestacolDbContext>(options =>
+builder.Services.AddDbContext<PrestaColombiaDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");

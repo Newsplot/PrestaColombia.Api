@@ -1,5 +1,6 @@
 ﻿using PrestaColombia.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Prestacol.Domain.Entities;
 
 namespace PrestaColombia.Infrastructure.Data
 {

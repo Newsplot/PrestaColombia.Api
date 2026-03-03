@@ -5,11 +5,11 @@ VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Api", "PrestaColombia.Api\PrestaColombia.Api.csproj", "{D431496A-99F6-4CF8-BDD6-CE01EB37A738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Domain", "Prestacol.Domain\PrestaColombia.Domain.csproj", "{B2B1848B-5AF5-4F91-BFC8-043366DA9D0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Domain", "PrestaColombia.Domain\PrestaColombia.Domain.csproj", "{B7F07178-3819-48CF-8007-C18707756B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Application", "Prestacol.Application\PrestaColombia.Application.csproj", "{506E4ACF-8095-4F85-B628-D469135DF285}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Application", "PrestaColombia.Application\PrestaColombia.Application.csproj", "{5B1CAF9B-A025-40D1-A217-5A8A6E17C0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Infrastructure", "Prestacol.Infrastructure\PrestaColombia.Infrastructure.csproj", "{00677043-0E36-4FBF-8AC6-2EE14DB73F39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaColombia.Infrastructure", "PrestaColombia.Infrastructure\PrestaColombia.Infrastructure.csproj", "{BB164F94-64AA-47A4-B9C8-7777C620DA5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{D431496A-99F6-4CF8-BDD6-CE01EB37A738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D431496A-99F6-4CF8-BDD6-CE01EB37A738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D431496A-99F6-4CF8-BDD6-CE01EB37A738}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2B1848B-5AF5-4F91-BFC8-043366DA9D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2B1848B-5AF5-4F91-BFC8-043366DA9D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2B1848B-5AF5-4F91-BFC8-043366DA9D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2B1848B-5AF5-4F91-BFC8-043366DA9D0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{506E4ACF-8095-4F85-B628-D469135DF285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{506E4ACF-8095-4F85-B628-D469135DF285}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{506E4ACF-8095-4F85-B628-D469135DF285}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{506E4ACF-8095-4F85-B628-D469135DF285}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00677043-0E36-4FBF-8AC6-2EE14DB73F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00677043-0E36-4FBF-8AC6-2EE14DB73F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00677043-0E36-4FBF-8AC6-2EE14DB73F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00677043-0E36-4FBF-8AC6-2EE14DB73F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F07178-3819-48CF-8007-C18707756B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F07178-3819-48CF-8007-C18707756B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F07178-3819-48CF-8007-C18707756B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F07178-3819-48CF-8007-C18707756B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1CAF9B-A025-40D1-A217-5A8A6E17C0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1CAF9B-A025-40D1-A217-5A8A6E17C0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1CAF9B-A025-40D1-A217-5A8A6E17C0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1CAF9B-A025-40D1-A217-5A8A6E17C0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB164F94-64AA-47A4-B9C8-7777C620DA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB164F94-64AA-47A4-B9C8-7777C620DA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB164F94-64AA-47A4-B9C8-7777C620DA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB164F94-64AA-47A4-B9C8-7777C620DA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
